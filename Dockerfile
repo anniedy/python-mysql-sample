@@ -1,4 +1,4 @@
-FROM python:2.7.8
+FROM daocloud.io/python:2.7.8
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
